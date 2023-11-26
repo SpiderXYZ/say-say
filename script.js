@@ -8,6 +8,8 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "Yayyyyy!!!";
   gif.src =
     "https://media.tenor.com/jgZBcWxzbyUAAAAi/cats-love.gif";
+  yesBtn.style.display = 'none';
+  noBtn.style.display = 'none';
 });
 
 noBtn.addEventListener("mouseover", () => {
